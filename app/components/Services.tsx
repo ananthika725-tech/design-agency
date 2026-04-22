@@ -5,16 +5,19 @@ export default function Services() {
 
       <div className="grid md:grid-cols-3 gap-8">
         <div className="p-6 shadow-lg rounded-xl bg-white">
+           <div className="text-5xl mb-4">🎨</div>
           <h3 className="text-2xl font-semibold mb-3">UI/UX Design</h3>
           <p>Creating beautiful and user-friendly designs.</p>
         </div>
 
         <div className="p-6 shadow-lg rounded-xl bg-white">
+          <div className="text-5xl mb-4">💻</div>
           <h3 className="text-2xl font-semibold mb-3">Web Development</h3>
           <p>Building fast and responsive websites.</p>
         </div>
 
         <div className="p-6 shadow-lg rounded-xl bg-white">
+          <div className="text-5xl mb-4">✨</div>
           <h3 className="text-2xl font-semibold mb-3">Branding</h3>
           <p>Helping brands stand out in the market.</p>
         </div>
