@@ -1,4 +1,8 @@
+"use client";
 export default function Contact() {
+   const handleClick = () => {
+    alert("Thanks for Contacting US!! \n Message sent successfully!");
+  };
   return (
     <section className="py-20 px-8 text-center bg-gray-100">
       <h2 className="text-4xl font-bold mb-10">Contact Us</h2>
@@ -19,8 +23,11 @@ export default function Contact() {
           className="p-3 border rounded-lg"
           rows={5}
         />
-        <button className="bg-blue-600 text-white p-3 rounded-lg">
-          Send Message
+        <button 
+        type="button"
+        onClick={handleClick}
+         className="bg-blue-600 text-white p-3 rounded-lg">
+           Send Message 
         </button>
       </form>
     </section>
